@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware de CORS
 app.use(cors({
-    origin: 'http://localhost:5173', // Origen permitido
+    origin: 'https://gadgetsphere-client-production.up.railway.app', // Origen permitido
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos HTTP permitidos
     credentials: true // Permitir el envío de cookies si es necesario
   }));
